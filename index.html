@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>        
+        <nav class="navbar navbar-expand-lg" style="background-color: #F0F3F1;">
+            <div class="container">
+                <a class="navbar-brand" href="#">BLOG</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Mindfulness</a></li>
+                            <li><a class="dropdown-item" href="#">Self-Improvement</a></li>
+                            <li><a class="dropdown-item" href="#">Entertainment</a></li>
+                            <li><a class="dropdown-item" href="#">Health and Lifestyle</a></li>
+                            <li><a class="dropdown-item" href="#">Technology</a></li>
+                            <li><a class="dropdown-item" href="#">Home Gardening</a></li>
+                            <li><a class="dropdown-item" href="#">Poetry</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex search-form">
+                    <input class="form-control me-2" type="search" placeholder="Search here..." aria-label="Search">
+                    <button class="btn btn-primary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/banner1.jpg" class="d-block w-100" alt="banner1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Engaging Purposeful <br> And Creative</h1>
+                </div>
+            </div>
+              <div class="carousel-item">
+                <img src="./images/banner2.jpg" class="d-block w-100" alt="banner2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Engaging Purposeful <br> And Creative</h1>
+                </div>         
+            </div>
+              <div class="carousel-item">
+                <img src="./images/banner3.jpg" class="d-block w-100" alt="banner3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Engaging Purposeful <br> And Creative</h1>
+                </div>
+            </div>
+              <div class="carousel-item">
+                <img src="./images/banner4.jpg" class="d-block w-100" alt="banner4">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Engaging Purposeful <br> And Creative</h1>
+                </div>
+            </div>
+              <div class="carousel-item">
+                <img src="./images/banner5.jpg" class="d-block w-100" alt="banner5">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Engaging Purposeful <br> And Creative</h1>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <article>
+        <!-- Posts Section -->
+        <section class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-primary">Favorite Posts</h3>
+                        <hr>
+                        <ul id="flexiselCarousel">
+                            <li>
+                                <img src="/images/How to Be More Flexible.jpg" alt="">
+                                <button type="button" class="btn btn-primary play">
+                                    <a href="#" style="text-decoration: none;color:white">
+                                        <i class="fa-solid fa-eye"></i>
+                                    </a>                                        
+                                </button>
+                                <div class="floods-text mt-3">
+                                    <h3>topic about the post
+                                        <span>category</span>
+                                    </h3>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="/images/exercise.png" alt="">
+                                <button type="button" class="btn btn-primary play">
+                                    <a href="#" style="text-decoration: none;color:white">
+                                        <i class="fa-solid fa-eye"></i>
+                                    </a>                                        
+                                </button>
+                                <div class="floods-text mt-3">
+                                    <h3>topic about the post
+                                        <span>category</span>
+                                    </h3>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="/images/blackpink.jpg" alt="">
+                                <button type="button" class="btn btn-primary play">
+                                    <a href="#" style="text-decoration: none;color:white">
+                                        <i class="fa-solid fa-eye"></i>
+                                    </a>                                        
+                                </button>
+                                <div class="floods-text mt-3">
+                                    <h3>topic about the post
+                                        <span>category</span>
+                                    </h3>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="/images/the moment.jpg" alt="">
+                                <button type="button" class="btn btn-primary play">
+                                    <a href="#" style="text-decoration: none;color:white">
+                                        <i class="fa-solid fa-eye"></i>
+                                    </a>                                        
+                                </button>
+                                <div class="floods-text mt-3">
+                                    <h3>topic about the post
+                                        <span>category</span>
+                                    </h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Recent and Categories Section  -->
+        <section class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <main class="col-12 col-lg-7">
+                        <h3 class="text-primary">Most Recent</h3>
+                        <hr>
+                        <div class="row mb-md-5">
+                            <div class="col-sm-6">
+                                <div class="recent card">
+                                    <img src="./images/health and lifestyle 1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="card-text">How Well You Measure Up On The Researchers' Four Keys To Healthfulness</p>
+                                        <p>
+                                            <span class="float-start">
+                                                <i class="fa-sharp fa-solid fa-clock text-primary"></i>
+                                            2022-09-20</span>
+                                            <span class="float-start float-lg-end">
+                                            <i class="fa-sharp fa-solid fa-tags text-primary"></i>
+                                            exercise</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="recent card">
+                                    <img src="./images/What type of foods should I avoid.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">What type of foods should I avoid?</p>
+                                        <p>
+                                            <span class="float-start">
+                                                <i class="fa-sharp fa-solid fa-clock text-primary"></i>
+                                            2022-09-20</span>
+                                            <span class="float-start float-lg-end">
+                                            <i class="fa-sharp fa-solid fa-tags text-primary"></i>
+                                            Food, health tips</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-md-5">
+                            <div class="col-sm-6">
+                                <div class="recent card" >
+                                    <img src="./images/You Can Grow Your Own Herbs and Spices.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="card-text">You Can Grow Your Own Herbs and Spices</p>
+                                        <p>
+                                            <span class="float-start">
+                                                <i class="fa-sharp fa-solid fa-clock text-primary"></i>
+                                            2022-09-20</span>
+                                            <span class="float-start float-lg-end">
+                                            <i class="fa-sharp fa-solid fa-tags text-primary"></i>
+                                            herbs, species</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="recent card" >
+                                    <img src="./images/How to Be More Positive.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">How to Be More Positive</p>
+                                        <p>
+                                            <span class="float-start"><i class="fa-sharp fa-solid fa-clock text-primary"></i>
+                                            2022-09-20</span>
+                                            <span class="float-start float-lg-end">
+                                            <i class="fa-sharp fa-solid fa-tags text-primary"></i>
+                                            calm, mindfulness</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-md-5">
+                            <div class="col-sm-6">
+                                <div class="recent card" >
+                                    <img src="./images/How to Be More Flexible.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="card-text">Benefits of Being Flexible</p>
+                                        <p>
+                                            <span class="float-start">
+                                                <i class="fa-sharp fa-solid fa-clock text-primary"></i>
+                                            2022-09-20</span>
+                                            <span class="float-start float-lg-end">
+                                            <i class="fa-sharp fa-solid fa-tags text-primary"></i>
+                                            traits, flexibility</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="recent card" >
+                                    <img src="./images/What Are the Benefits of Mindfulness.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">What Are the Benefits of Mindfulness</p>
+                                        <p>
+                                            <span class="float-start">
+                                                <i class="fa-sharp fa-solid fa-clock text-primary"></i>
+                                            2022-09-20</span>
+                                            <span class="float-start float-lg-end">
+                                            <i class="fa-sharp fa-solid fa-tags text-primary"></i>
+                                            life quality, health</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                    </main>
+                    <aside class="col-12 col-lg-5">
+                        <article class="ms-3">
+                            <h4>Categories</h4>
+                            <div class="categories card my-3">
+                                <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Mindfulness
+                                    <span class="badge rounded-pill text-bg-primary float-end"><span class="text-white">2</span></span>
+                                </li>
+                                <li class="list-group-item">
+                                    Self-Improvement
+                                    <span class="badge rounded-pill text-bg-primary float-end"><span class="text-white">2</span></span>
+                                </li>
+                                <li class="list-group-item">Entertainment
+                                    <span class="badge rounded-pill text-bg-primary float-end"><span class="text-white">2</span></span>
+                                </li>
+                                <li class="list-group-item">Health and Lifestyle
+                                    <span class="badge rounded-pill text-bg-primary float-end"><span class="text-white">2</span></span>
+                                </li>
+                                <li class="list-group-item">
+                                    Technology
+                                    <span class="badge rounded-pill text-bg-primary float-end"><span class="text-white">2</span></span>
+                                </li>
+                                <li class="list-group-item">Home Gardening
+                                    <span class="badge rounded-pill text-bg-primary float-end"><span class="text-white">2</span></span>
+                                </li>
+                                <li class="list-group-item">Poetry
+                                    <span class="badge rounded-pill text-bg-primary float-end"><span class="text-white">2</span></span>
+                                </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="ms-3 mt-4 d-none d-sm-block">
+                            <h4>Stay Connected</h4>
+                            <div class="d-grid gap-3 my-3">
+                                <a
+                                href="https://twitter.com"
+                                class="color-bg-twitter btn"
+                                role="button"
+                                target="_blank"
+                                >
+                                <span class="text-white d-flex align-items-center">
+                                    <i class="fa-brands fa-twitter me-4"></i>Twitter
+                                </span>                                    
+                            </a>
+                                <a
+                                    href="https://www.facebook.com"
+                                    class="btn color-bg-facebook"
+                                    role="button"
+                                    target="_blank"
+                                    ><span class="text-white d-flex align-items-center">
+                                        <i class="fa-brands fa-facebook-f me-4"></i>Facebook
+                                    </span></a>
+                                    <a
+                                    href="https://www.youtube.com"
+                                    class="btn color-bg-youtube"
+                                    role="button"
+                                    target="_blank"
+                                    ><span class="text-white d-flex align-items-center">
+                                        <i class="fa-brands fa-youtube me-4"></i>Youtube
+                                    </span></a>
+                            </div>
+                        </article>
+                        <article class="ms-3 mt-4 d-none d-sm-block">
+                            <h4>Older Posts</h4>
+                            <div class="older-posts card my-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-4">
+                                    <img src="./images/health and lifestyle 1.jpg" class="img-fluid rounded-start card-img-left" alt="...">
+                                  </div>
+                                  <div class="col-8">
+                                    <div class="card-body">
+                                      <p class="card-text">How Well You Measure Up On The Researchers' Four Keys To Healthfulness</p>
+                                      <p class="card-text"><small class="text-muted"><i class="fa-sharp fa-solid fa-clock"></i>
+                                        2022-09-20</p></small>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="older-posts card my-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-4">
+                                    <img src="./images/What type of foods should I avoid.jpg" class="img-fluid rounded-start card-img-left" alt="...">
+                                  </div>
+                                  <div class="col-8">
+                                    <div class="card-body">
+                                      <p class="card-text">What type of foods should I avoid</p>
+                                      <p class="card-text"><small class="text-muted"><i class="fa-sharp fa-solid fa-clock"></i>
+                                        2022-09-20</p></small>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="older-posts card my-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-4">
+                                    <img src="./images/twitter news.jpg" class="img-fluid rounded-start card-img-left" alt="...">
+                                  </div>
+                                  <div class="col-8">
+                                    <div class="card-body">
+                                      <p class="card-text">Elon Musk Strikes Deal to Buy Twitter for $44 Billions</p>
+                                      <p class="card-text"><small class="text-muted"><i class="fa-sharp fa-solid fa-clock"></i>
+                                        2022-09-20</p></small>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="older-posts card my-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-4">
+                                    <img src="./images/The Top 10 Cryptocurrency to Explode in 2022.jpg" class="img-fluid rounded-start card-img-left" alt="...">
+                                  </div>
+                                  <div class="col-8">
+                                    <div class="card-body">
+                                      <p class="card-text">The Top 10 Cryptocurrency to Explode in 2022</p>
+                                      <p class="card-text"><small class="text-muted"><i class="fa-sharp fa-solid fa-clock"></i>
+                                        2022-09-20</p></small>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="older-posts card my-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-4">
+                                    <img src="./images/Home Gardening Is a Family Activity.jpeg" class="img-fluid rounded-start card-img-left" alt="...">
+                                  </div>
+                                  <div class="col-8">
+                                    <div class="card-body">
+                                      <p class="card-text">Home Gardening Is a Family Activity</p>
+                                      <p class="card-text"><small class="text-muted"><i class="fa-sharp fa-solid fa-clock"></i>
+                                        2022-09-20</p></small>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="older-posts card my-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-4">
+                                    <img src="./images/You Can Grow Your Own Herbs and Spices.jpg" class="img-fluid rounded-start card-img-left" alt="...">
+                                  </div>
+                                  <div class="col-8">
+                                    <div class="card-body">
+                                      <p class="card-text">You Can Grow Your Own Herbs and Spices</p>
+                                      <p class="card-text"><small class="text-muted"><i class="fa-sharp fa-solid fa-clock"></i>
+                                        2022-09-20</p></small>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="older-posts card my-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-4">
+                                    <img src="./images/How to Be More Positive.jpg" class="img-fluid rounded-start card-img-left" alt="...">
+                                  </div>
+                                  <div class="col-8">
+                                    <div class="card-body">
+                                      <p class="card-text">How to Be More Positive</p>
+                                      <p class="card-text"><small class="text-muted"><i class="fa-sharp fa-solid fa-clock"></i>
+                                        2022-09-20</p></small>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="older-posts card my-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-4">
+                                    <img src="./images/How to Be More Flexible.jpg" class="img-fluid rounded-start card-img-left" alt="...">
+                                  </div>
+                                  <div class="col-8">
+                                    <div class="card-body">
+                                      <p class="card-text">How to Be More Flexible</p>
+                                      <p class="card-text"><small class="text-muted"><i class="fa-sharp fa-solid fa-clock"></i>
+                                        2022-09-20</p></small>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </article>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </article>
+    <footer class="mt-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 py-5">
+                    <h2>About Us</h2>
+                    <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit alias id fugiat. Quia quibusdam repellendus modi consectetur itaque exercitationem? Quasi.</p>
+                    <a href="#" class="btn btn-primary" role="btn">Read More</a>
+                </div>
+                <div class="col-xl-6 py-5">
+                    <h2>Signup to our newsletter</h2>
+                    <form  action="/"
+                    method="post"
+                    class="signup-form text-start pt-4">
+                        <p class="form-group has-placeholder">
+                        <input class="form-control" type="search" placeholder="Enter your email..." class="form-control"
+                        id="email"
+                        name="email"
+                        type="email"
+                        value=""
+                        size="30"
+                        maxlength="100"
+                        aria-required="true"
+                        required="required">
+                        </p>
+                        <div class="d-grid col-4 mt-3">
+                        <button class="btn btn-light" type="submit"><span>SUBMIT</span></button>
+                        </div>
+                        <p class="text-start mt-4">We respect your privacy.No spam ever!</p>
+                    </form>                   
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col-md-12 text-center text-white">
+                    <span class="me-4"><i class="fa-brands fa-facebook-f me-2"></i><p class="d-inline">Facebook</p></span>
+                    <span class="me-4"><i class="fa-brands fa-twitter me-2"></i><p class="d-inline">Twitter</p></span>
+                    <span class="me-4"><i class="fa-brands fa-google-plus-g me-2"></i><p class="d-inline">Google +</p></span>
+                    <span><i class="fa-brands fa-youtube me-2"></i><p class="d-inline">Youtube</p></span>
+                    <p class="mt-4">Responsive Blog 2022</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" id="bottom-top" class="btn btn-primary btn-floating btn-lg" role="button"><i class="fas fa-chevron-up"></i></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-1.7.1.min.js"
+    ></script>
+    <script type="text/javascript" src="./js/jquery.flexisel.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
