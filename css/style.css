@@ -108,3 +108,28 @@ display: none;
     margin: 0.5em 0 1em;
     font-size: 0.8em;
   }
+
+  /* About */
+
+.header-img{
+  background: url(/images/banner4.jpg) no-repeat ;
+  height: 50vh;
+}
+.sub-text{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.contact-bar{
+ height:30vh;
+}
+.about-img{
+  position:relative;
+}
+.blog-floods-text{
+  position:absolute;
+  background: rgba(14, 15, 16, 0.67);
+  width:100%;
+  bottom:0;
+  padding:0.7rem;
+  color:#fff;
+}
