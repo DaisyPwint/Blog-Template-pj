@@ -112,7 +112,7 @@ display: none;
   /* About */
 
 .header-img{
-  background: url(/images/banner4.jpg) no-repeat ;
+  background: url(../images/banner4.jpg) no-repeat ;
   height: 50vh;
 }
 .sub-text{
